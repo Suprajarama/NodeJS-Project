@@ -1,2 +1,6 @@
 # NodeJS-Project
-Academic Projects
+This repository showcases three full-stack web application projects built as part of the CSC587 course: *Modern Web Applications Using Server-Side Technologies*. Each project explores essential backend development concepts using Node.js, Express.js, EJS templating, and MongoDB.
+The first project focuses on dynamic data rendering and basic form handling. It includes two parts—one that displays the current server-side date and time using EJS, and another that allows users to be added, viewed, and deleted through simple forms and page routing.
+The second project introduces MongoDB integration using Mongoose and follows the MVC (Model-View-Controller) pattern. It demonstrates how user data can be stored, retrieved, updated, and deleted in a persistent database, with clean separation of logic through controllers and EJS-based views.
+The third project builds a RESTful API server that connects to MongoDB and provides endpoints for interacting with user data. It also includes a client-side script that consumes this API using the Fetch API, showcasing a complete client-server communication flow using REST principles.
+Each project is modular and runs independently. To run any project, navigate to its folder, install the dependencies using `npm install`, and start the server with `node app.js` or `npm start`. Open a browser and go to `http://localhost:3000` to view the application in action.
